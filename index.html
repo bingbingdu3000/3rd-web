@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .photo-album{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .photo-frame{ 
+        width: 300px;
+        height: 200px;
+        border: 10px solid greenyellow;
+        border-radius: 10px;
+        position: relative; 
+        margin: 10px;
+        overflow: hidden;
+    }
+    .photo-frame .photo img{
+        width: 300px;
+         height: 200px;     
+        
+    }
+    .photo-frame:hover .photo img{
+        transform: scale(1.2) rotate(360deg);
+        transition: transform 2s;
+    }
+    .photo-detail{
+        position:absolute; 
+        display: none;
+        width: 300px;
+        height: 400px; 
+        top: 0;
+    }
+    .photo-frame:hover .photo-detail{
+         display: block;
+      /*  background-color:rgb(234, 239, 226); */
+    }
+    .photo-frame:hover .photo-detail h3{
+        color: white;
+        background-color: black;
+        text-align: center;
+    }
+    .photo-frame:hover .photo-detail p{
+        color: white;
+    }
+</style>
+<body>
+    <h1>My Jungle Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+           <div class="photo">
+             <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+        </div>
+        <div class="photo-detail">
+            <h3>Royal Bengal Tiger</h3>
+            <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+        </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>
+         <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>
+         <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>
+         <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>
+         <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>
+         <div class="photo-frame">
+            <div class="photo">
+              <img src="HD-wallpaper-royal-bengal-tiger-rock-tiger-animal-leaves-profile-color-art-female-male-angry-cat-sumatra-cat-predator-black-panther-bengal-feet-cub-summer-the-tiger-sister-eyes-white-tiger.jpg" alt="">
+         </div>
+         <div class="photo-detail">
+             <h3>Royal Bengal Tiger</h3>
+             <p>The Royal Bengal Tiger, scientifically known as Panthera tigris tigris, is one of the most majestic and iconic big cats in the world. It is the national animal of both India and Bangladesh, where it primarily resides in the mangrove forests of the Sundarbans</p>
+         </div>
+         </div>  
+    </section>
+</body>
+</html>
